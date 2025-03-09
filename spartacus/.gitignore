@@ -1,0 +1,13 @@
+# Ignorer les fichiers système inutiles
+.bash_history
+.bash_profile
+.bashrc
+.docker/
+.env
+.git-for-windows-updater
+.gitconfig
+node_modules/
+package-lock.json
+npm-debug.log
+logs/
+.DS_Store

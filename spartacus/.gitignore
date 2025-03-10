@@ -11,3 +11,5 @@ package-lock.json
 npm-debug.log
 logs/
 .DS_Store
+.vercel
+.env*.local

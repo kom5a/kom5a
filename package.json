@@ -1,15 +1,20 @@
 {
   "name": "kom5a",
   "version": "1.0.0",
-  "description": "<!--\r **kom5a/kom5a** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "description": "Projet KOM5A avec Spartacus",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "spartacus": "node spartacus/spartacus.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Administrateur Spartacus",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "fs": "^0.0.2"
   }
 }
+
